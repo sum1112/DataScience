@@ -1,0 +1,9 @@
+-> Learned Linear Regression 
+  -> Intution behind designing the h(x) = q0 + (q1 * x) for different values of (x, y) where if you give x to h(x) it will predict y.
+  -> Learned how to derive it with the calculus (Minimizing the addition of squares of actual values and predicted values.
+-> Learned how Quadratic Regression can be performed
+-> Applied Linear Regression in jupyter notebook with the help of (from sklearn.pyplot import LinearRegression as LR)
+  -> Then run LR.fit(x, y) where x, y are DataFrames of dependent and independent variables
+  -> slope of regression line can be found out with the help of LR.coef_
+  -> intercept of regression line can be found out with help of LR.intercept_
+-> Applied this learned knowledge on designing the model for prediciting the affect in math scores after taking particular quantity of LSD hallucination drug.
