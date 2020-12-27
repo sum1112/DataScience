@@ -1,0 +1,5 @@
+-> Learned about cost functions
+-> Learned LaTeX Markdown and generation data with numpy with the help of linspace(start,stop,num) function in the numpy module
+-> Learned about the subplots
+-> Learned the gradient descent algorithm and applied it on the cost function f(x) = x^2 + x + 1
+-> For the visualization submerged the both plot from the f(x) and the plot generated from the gradient algorithm x = x - (df(x) * step_size) where df(x) is derivated of f(x) wrt x
