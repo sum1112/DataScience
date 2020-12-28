@@ -1,0 +1,5 @@
+-> Learned about the advance concepts of the functions such as passing default value to the arguments and returning multiple values
+-> Observed the problem in the gradient descent algorithm where we need to be careful, it gives the local minimum which also depends on the initial guess, so for finding the global
+   minimum we need guessing
+-> Learned about the overflow problem in gradient algorithm where value increases so rapidly due to the steepness of the graph that it overflows 10^131 which is general limit of
+   floating point numbers in python
