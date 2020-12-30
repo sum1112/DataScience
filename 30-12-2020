@@ -1,0 +1,7 @@
+-> Learned about 3-d charts such as plotting f(x, y) taking x and y as independent variables and also used colorMap in them to clearly visualize their nature.
+-> Learned about the sympy and how we can represent different functions with it and also used it's diff(f(a, b), a).evalf(subs={a:1.8,b:2.0}) which calculate the value of partial 
+   derivative of the f(a, b) wrt a or b.
+-> Applied batch descent algorithm for f(x, y) where we need to minimize f w.r.t a and b
+   -> x = x - partialDerivative of f wrt x * learning rate
+   -> y = y - partialDerivative of f wrt y * learning rate
+-> Learned about how important is to choose right learning rate as very high learning may cause overshooting and low learning rate will make algorithm slow
