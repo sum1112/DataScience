@@ -1,0 +1,14 @@
+✓ Learner about advance numpy array techniques 
+   - Appending array row wise with the help of
+     np.append(first_array, second_array, axis=0)
+     where axis=0 represent row wise stacking
+   - Appending array column wise if second array
+     is compatible which means it has same row as first.
+   - Applied mean_squared_error with brute force 
+     and simply with the use of numpy like directly
+     doing ((y_true - y_pred)**2).sum().mean()
+   - Visualized in 3d gradient descent algorithm
+     and realised how powerful and beautiful it is.
+Tommorow, will be learning some techniques of data cleaning
+     gathering and predicting some real estate prices in
+     USA Boston area.
