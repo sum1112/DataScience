@@ -7,6 +7,8 @@
    - Applied mean_squared_error with brute force 
      and simply with the use of numpy like directly
      doing ((y_true - y_pred)**2).sum().mean()
+   - Used sklearn.metrics mean_squared_error module 
+     to direct calculate mse.
    - Visualized in 3d gradient descent algorithm
      and realised how powerful and beautiful it is.
 Tommorow, will be learning some techniques of data cleaning
