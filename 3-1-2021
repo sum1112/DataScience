@@ -1,0 +1,12 @@
+=> Revised properties of matricies such as -
+   -> matricies multiplications are not commutative but associative
+   -> only square matricies having |A| != 0 have inverses and that can be calculated by numpy i.e np.linalg.inv(A) or with use of calculator (1/|A|) adjA where adjA is matrix of
+      cofactore where C(i,j) = (-1)^(i+j) M(i, j) where M(i, j) stands for minor of Aij.
+=> Learned about the histogram and bar chart
+   -> Visualized the no. of houses in boston w.r.t many no. of rooms, price, index of accessibility to highways, near to river(boolean) etc.
+   -> Used the seaborn library to visualize the histogram with the probablity density function i.e sns.distplot(data['Price'], bins=50) where bins represent no. of blocks of histogram
+      and data['Price'] is a particular series of DataFrame data
+=> Started Descriptive Statistics 
+   -> Used (particular DataFrame).describe() to see mean, medium, 25%, 50%, 75%, min, max range of the data
+   -> Learned theortically whats it means to have positive, negative and zero correlation between two variables 
+   
