@@ -1,0 +1,14 @@
+=> Learned about collinearity 
+  -> Collinearity determine the strength and direction(Positive or negative) change of one variable with another.
+  -> It's value varies from -1 to 1.
+  -> Collinearity does not means causation (Positive correlation just means if one variable increases other is seen to increase too but it does mean that it will cause other to increase.
+  -> It can be determined directly with (Series of dataframe).corr(another series)
+  -> Visualized the correlation with the every other features through the heatmap
+  -> Learned that pearson correlation constant only valid for continuous values not discrete values
+=> Done the multivariable regression 
+  -> Target = q0 + (q1 * x1) + (q2 * x2) + ............... + (qn * xn)
+    -> where q0, q1, q2........qn these are linear coefficient regression and can directly be done with the fit method on sklearn.linear_model.LinearRegression 
+    -> Learned about the r-square no. which can be used to predict how much fit our regression line is
+      -> r-square = 1 - (sum of square of regression values over real values / sum of square of real values over mean value)
+        -> r-square 1 means perfect fit and 0 means no-fit
+      
