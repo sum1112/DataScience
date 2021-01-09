@@ -1,0 +1,11 @@
+=> Learned about the skewness of the function
+  => Score of the regression can be improved with the help of applying some function to the target and then inverse of the function can be used to retrive the result.
+  => for finding skewness of the series in dataFrame data i.e data['PRICE'].skew() where value 0 means perfectly symmetric values about the top most point
+  => Applied the regression to the log of target and results improved significantely like score of test imporved from .65 to .73 and train data score improved from .74 to .79
+
+=> Two criterion can be used to find where particular feature is significant in doing regression or we can simply ignore that feature which will certainly improve our prediction
+  => P-Value : If p value of any feature is greater than .05 simply neglect that feature p-values can be found out with the help of statsmodels.api module
+    => I haven't got it insights but only know how to use it
+  => Variation-inflation-factor : It helps in finding whether there is multicollinearity in the features of not
+    => If vif of some feature is greater than 10 simply drop that feature it is of no use and it will inflate the result instead
+    => vif = 1 / (1 - r^2) where r is r-squared value of that particular feature w.r.t other features
