@@ -1,0 +1,15 @@
+=> I was not able to make to right conclusion in the previous work.
+  => Determing whether we can drop a feature just by observing its p-value and variation inflation factor 
+  => Seeing p-value and vif only gives you an idea of how many different models you need to check altogether.
+  => Inorder to compare two models we need to know Baysian information criterion.
+    => Always a model having less Baysian information criterion is preferred.
+    => Also check for the r-squared values of the two model so that we don't compromise on the fitted values.
+ => Finally completed the working model for the boston dataset given in the sklearn.dataset module
+    => It can predict prices of the houses in the boston area, also taken care of the inflation and other economic criterion effection house prices through scaling the medium of 
+       prices in 1976 w.r.t todays medium (found from zillow.com).
+    => Also predicted the range b/w the price can lie through the assumption that the residuls (predictedValues - actualValues) follows a normal distribution.
+      => which means for 95% confidence value will be predicted value +- (2 * root_mean_squared_error)
+      => for the 68% confidence value will be predicted value +- (root_mean_squared_error)
+      => Skew of the residuals in log of the target value is less and also r-squared is more, so done the calculation on the log(target)
+    => Formed docs for the function through the use of """ DOCS """ 
+    => Finally imported this .py file and used it in the notebook
