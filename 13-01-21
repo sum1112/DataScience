@@ -1,0 +1,17 @@
+=> Started the classification algorithms
+  => Learned two approaches to this problem
+    => Probabilistic approach
+    => Function based approach
+=> In probability revised bayes theorem
+  => Studied how it can be applied to classifying
+     whether a email is spam or not
+=> Function approach : Studied g(x) = 1/(1+e^-x)
+   It's range varies from 0 to 1.
+   So, If applied on some model it's value found
+   out to be greater than 0.5, then result is 1 
+   otherwise 0.
+=> Learned the use of walk function in os module
+   => Iterated entire folder to store all emails
+      in it to the DataFrame.
+   => Studied about function yield instead of return
+      approach with it's use.
