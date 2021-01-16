@@ -1,0 +1,8 @@
+=> Learned about pie charts in module matplotlib.pyplot
+   => i.e making pie chart, costumizing their colours, explode use, and using gca function on matplotlib.pyplot to add circle in the center
+=> Studied Natural Language processing
+   => Learned about the tokenizing and done it with the natural language toolkit module in python
+   => Learned about the filtering the entire list of words got from the tokenizing and removing the stop words such as the, in, or, are, is etc. , which are not of the concern
+      in figuring out spam mails
+   => Then removed the punctuation from the entire list of words through the use of isalpha() function on the string
+   => Used the bs4 module BeautifulSoup method to remove all the html tags from the emails.
